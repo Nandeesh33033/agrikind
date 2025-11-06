@@ -9,6 +9,7 @@ import MarketPrices from './components/MarketPrices';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { LocationProvider } from './contexts/LocationContext';
+import FloatingBottle from './components/FloatingBottle';
 
 const App: React.FC = () => {
   return (
@@ -24,6 +25,7 @@ const App: React.FC = () => {
           <MarketPrices />
           <Contact />
         </main>
+        <FloatingBottle />
         <Footer />
       </div>
     </LocationProvider>
